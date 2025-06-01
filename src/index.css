@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  pre {
+    @apply bg-gray-100 text-gray-800 p-4 rounded overflow-auto;
+  }
+
+  code {
+    @apply font-mono text-sm;
+  }
+
+  /* Dark mode overrides */
+  .dark pre {
+    @apply bg-gray-900 text-gray-100;
+  }
+
+  .dark p, h1, h2, h3, ul {
+    @apply text-gray-100;
+  }
+
+  .dark code {
+    @apply text-gray-100;
+  }
+}
+
