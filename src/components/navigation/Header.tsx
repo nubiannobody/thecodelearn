@@ -100,6 +100,15 @@ const Header: React.FC = () => {
             U
           </div>
         </Link>
+        <div className="flex items-center space-x-4">
+  <Link to="/signin" className="text-sm font-medium text-gray-700 bg-emerald-600 px-3 py-1.5 rounded hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-600 transition-colors">
+    Sign In
+  </Link>
+  <Link to="/signup" className="text-sm font-medium text-white bg-blue-600 px-3 py-1 rounded hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600">
+    Sign Up
+  </Link>
+</div>
+
       </div>
     </header>
   );
